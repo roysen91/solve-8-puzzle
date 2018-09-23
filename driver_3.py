@@ -249,10 +249,11 @@ class Solver():
 		self.time = time.time()-start
 		self.finish()
 	def get_path(self,state):
-		while state.parent != None:
+		while state.parent is not None:
 			self.path.insert(0,state.mv)
 			self.cost += 1
 			state = state.parent
+
 
 	def finish(self):
 		with open('output.txt','w') as f:

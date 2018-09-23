@@ -8,7 +8,7 @@ The game can be manually played here: http://mypuzzle.org/sliding (have a go it 
 
 Command line execution: 
 
-`python driver_3.py <method> <board>`
+`python3 driver_3.py <method> <board>`
 
 The following algorithms (methods) are used:
   * breadth-first search (`bfs`)
@@ -36,7 +36,7 @@ Note: running time and max_ram_usage will vary depending on the system.
 
 #### Example 1:
 
-`$ python driver.py bfs 1,2,5,3,4,0,6,7,8`
+`$ python3 driver_3.py bfs 1,2,5,3,4,0,6,7,8`
 
 `path_to_goal: ['Up', 'Left', 'Left']`
 
@@ -54,7 +54,7 @@ Note: running time and max_ram_usage will vary depending on the system.
 
 #### Example 2:
 
-`$ python driver.py dfs 1,2,5,3,4,0,6,7,8`
+`$ python3 driver_3.py dfs 1,2,5,3,4,0,6,7,8`
 
 `path_to_goal: ['Up', 'Left', 'Left']`
 
@@ -76,16 +76,16 @@ All these cases should work.
 
 #### Test Case #1
 
-`python driver.py bfs 3,1,2,0,4,5,6,7,8`
+`python3 driver_3.py bfs 3,1,2,0,4,5,6,7,8`
 
-`python driver.py dfs 3,1,2,0,4,5,6,7,8`
+`python3 driver_3.py dfs 3,1,2,0,4,5,6,7,8`
 
-`python driver.py ast 3,1,2,0,4,5,6,7,8`
+`python3 driver_3.py ast 3,1,2,0,4,5,6,7,8`
 
 #### Test Case #2
 
-`python driver.py bfs 1,2,5,3,4,0,6,7,8`
+`python3 driver_3.py bfs 1,2,5,3,4,0,6,7,8`
 
-`python driver.py dfs 1,2,5,3,4,0,6,7,8`
+`python3 driver_3.py dfs 1,2,5,3,4,0,6,7,8`
 
-`python driver.py ast 1,2,5,3,4,0,6,7,8`
+`python3 driver_3:.py ast 1,2,5,3,4,0,6,7,8`
